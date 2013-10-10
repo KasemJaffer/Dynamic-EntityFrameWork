@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasCRUDSampleTest", "KasCRUDSampleTest\KasCRUDSampleTest.csproj", "{6E1FC9D6-62D2-4F5E-8478-383B61068015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasCRUD", "KasCRUD\KasCRUD.csproj", "{DA2D3AA1-1A60-49B7-B296-D0BC9A52ED09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E1FC9D6-62D2-4F5E-8478-383B61068015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1FC9D6-62D2-4F5E-8478-383B61068015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1FC9D6-62D2-4F5E-8478-383B61068015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1FC9D6-62D2-4F5E-8478-383B61068015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2D3AA1-1A60-49B7-B296-D0BC9A52ED09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2D3AA1-1A60-49B7-B296-D0BC9A52ED09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2D3AA1-1A60-49B7-B296-D0BC9A52ED09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2D3AA1-1A60-49B7-B296-D0BC9A52ED09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
