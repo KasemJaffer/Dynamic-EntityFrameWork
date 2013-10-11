@@ -172,11 +172,11 @@ namespace KasCRUD
 
         public class subQueryObject
         {
-            public string foriegnTable { set; get; }
-            public string foriegnKey { set; get; }
-            public string primaryKey { set; get; }
-            public string primaryTable { set; get; }
-            public int value { set; get; }
+            public string foriegnTable ;
+            public string foriegnKey ;
+            public string primaryKey ;
+            public string primaryTable ;
+            public int value ;
         }
 
     }
