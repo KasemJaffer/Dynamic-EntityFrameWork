@@ -14,10 +14,10 @@ Example:
 
     public class EFCRUDController : ApiController
         {
-            static kasemEntities mCompanyEntities = new kasemEntities();
+            static myDbContext _myDbContext = new myDbContext();
             static string assemblyName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
             static string nameSpace = assemblyName + ".Models";
-            EntityFrameworkCRUD crud = new EntityFrameworkCRUD(assemblyName, nameSpace, mCompanyEntities);
+            EntityFrameworkCRUD crud = new EntityFrameworkCRUD(assemblyName, nameSpace, _myDbContext);
     
             [HttpGet, ActionName("getAll")]
             public object getAll(string tablename)
